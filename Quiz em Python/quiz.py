@@ -9,7 +9,7 @@ print(f"Seu nome é {userName}")
 correction = input("O seu nome está correto? (S / N)")
 if correction == "N" or correction == "n":
     userName = input("Digite seu nome novamente:")
-else:
+
     #Pergunta ao usuário e recebe resposta
     print("Pronto para começar?")
     answerUser = input("Digite sim ou não (S / N): \n") 
@@ -23,7 +23,7 @@ else:
 
         print("Responda a cada pergunta de acordo com as alternativas")
         #Primeira pergunta
-        print("1. Em Avatar, quais os elementos de dobra existentes? \n")
+        print("1. Em Avatar, quais os elementos de dobra existentes?")
         print("(A) Água, Terra, Fogo e Ar")
         print("(B) Terra, Fogo, Metal e Água")
         print("(C) Fogo, Lava, Metal e Ar")
@@ -40,7 +40,7 @@ else:
             print("Resposta errada! \n Quem sabe da próxima vez?")
 
         #Segunda pergunta
-        print("2. O que é um Avatar? \n")
+        print("2. O que é um Avatar?")
         print("(A) Um mestre dos 4 elementos")
         print("(B) Uma ponte entre o mundo dos humanos e o mundo dos espíritos")
         print("(C) Um pacificador")
@@ -57,7 +57,7 @@ else:
             print("Resposta errada! \n Quem sabe da próxima vez?")
 
         #Terceira pergunta
-        print("3. Quais os nomes dos irmãos que encontraram Aang preso no iceberg? \n")
+        print("3. Quais os nomes dos irmãos que encontraram Aang preso no iceberg?")
         print("(A) Kiana e Sora")
         print("(B) Katara e Sokka")
         print("(C) Zuko e Azula")
@@ -74,7 +74,7 @@ else:
             print("Resposta errada! \n Quem sabe da próxima vez?")
 
         #Quarta pergunta
-        print("4. Qual país foi responsável pela destruição da nação do Ar? \n")
+        print("4. Qual país foi responsável pela destruição da nação do Ar?")
         print("(A) Reino da Terra")
         print("(B) Tribo da Água do Sul")
         print("(C) Nação do Fogo")
@@ -91,7 +91,7 @@ else:
             print("Resposta errada! \n Quem sabe da próxima vez?")
 
         #Quinta pergunta
-        print("5. Qual o nome do Senhor do Fogo atual, que Aang enfrenta no último episódio da animação?\n")
+        print("5. Qual o nome do Senhor do Fogo atual, que Aang enfrenta no último episódio da animação?")
         print("(A) Senhor do Fogo Ozai")
         print("(B) Senhor do Fogo Sozin")
         print("(C) Senhor do Fogo Zuko")
@@ -112,8 +112,8 @@ else:
         if score == 50:
             print("Você acertou todas as perguntas e provou que é um especialista em Avatar: A Lenda de Aang.")
             print("Parabéns!!!")
-        elif score == 30:
-            print("Você acertou a maioria das perguntas e provou que é conhece o desenho Avatar: A Lenda de Aang.")
+        elif score >= 30:
+            print("Você acertou a maioria das perguntas e provou que conhece o desenho Avatar: A Lenda de Aang.")
             print("Parabéns! Continue assim!")
         else: 
             print("Infelizmente, você errou a maioria das perguntas sobre Avatar: A Lenda de Aang")
