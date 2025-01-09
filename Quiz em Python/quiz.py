@@ -6,6 +6,9 @@ print("Olá! Seja bem-vindo ao Quiz de Avatar: A Lenda de Aang!")
 #Guarda e imprime nome do jogador
 userName = input("Primeiro, digite seu nome: \n")
 print(f"Seu nome é {userName}")
+correction = input("O seu nome está correto? (S / N)")
+if correction == "N" or "n":
+    userName = input("Digite seu nome novamente:")
 
 #Pergunta ao usuário e recebe resposta
 print("Pronto para começar?")
