@@ -64,12 +64,28 @@ print("(D) Sokka e Toph")
 answer3 = input("Resposta: ")
 
 #Conferir a resposta
-if answer3 == "B" or answer2 == "b":
+if answer3 == "B" or answer3 == "b":
     print("Você acertou! \n Parabéns!!!")
     score += 10
 else:
     print("Resposta errada! \n Quem sabe da próxima vez?")
 
+#Quarta pergunta
+print("4. Qual país foi responsável pela destruição da nação do Ar? \n")
+print("(A) Reino da Terra")
+print("(B) Tribo da Água do Sul")
+print("(C) Nação do Fogo")
+print("(D) Tribo da Água do Norte")
+
+#Recebe resposta do usuário
+answer4 = input("Resposta: ")
+
+#Conferir a resposta
+if answer4 == "C" or answer4 == "c":
+    print("Você acertou! \n Parabéns!!!")
+    score += 10
+else:
+    print("Resposta errada! \n Quem sabe da próxima vez?")
 
 
 print("Término do Quiz!")
