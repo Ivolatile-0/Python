@@ -87,6 +87,31 @@ if answer4 == "C" or answer4 == "c":
 else:
     print("Resposta errada! \n Quem sabe da próxima vez?")
 
+#Quinta pergunta
+print("5. Qual o nome do Senhor do Fogo atual, que Aang enfrenta no último episódio da animação?\n")
+print("(A) Senhor do Fogo Ozai")
+print("(B) Senhor do Fogo Sozin")
+print("(C) Senhor do Fogo Zuko")
+print("(D) Senhor do Fogo Roku")
 
-print("Término do Quiz!")
+#Recebe resposta do usuário
+answer5 = input("Resposta: ")
+
+#Conferir a resposta
+if answer5 == "A" or answer5 == "a":
+    print("Você acertou! \n Parabéns!!!")
+    score += 10
+else:
+    print("Resposta errada! \n Quem sabe da próxima vez?")
+
+print("Você terminou o quiz!")
 print(f"Pontuação final: \n O jogador {userName} fez {score} pontos")
+if score == 50:
+    print("Você acertou todas as perguntas e provou que é um especialista em Avatar: A Lenda de Aang.")
+    print("Parabéns!!!")
+elif score == 30:
+    print("Você acertou a maioria das perguntas e provou que é conhece o desenho Avatar: A Lenda de Aang.")
+    print("Parabéns! Continue assim!")
+else: 
+    print("Infelizmente, você errou a maioria das perguntas sobre Avatar: A Lenda de Aang")
+    print("Mas não desista! Boa sorte na proxima!")
