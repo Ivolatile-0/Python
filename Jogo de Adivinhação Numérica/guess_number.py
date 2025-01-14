@@ -18,6 +18,10 @@ while True:
     # Validação do número inserido pelo usuário
     if answer_user.isdigit():
         answer_user = int(answer_user)
+        # Verifica se o número é menor ou igual a 0
+        if answer_user <= 0:
+            print("Erro: o número não pode ser menor ou igual a 0. Por favor, informe um número positivo entre 1 e 100!")
+            continue
     else:
         print("Erro: valor informado não é numérico. Por favor, informe um número entre 1 e 100!")
         continue
