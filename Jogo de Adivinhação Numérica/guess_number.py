@@ -9,8 +9,8 @@ n_choices = 0
 # Mensagem Inicial
 print("Seja muito bem-vindo ao Adivinhe o Número!")
 print("Como Jogar: Você precisa adivinhar um número escolhido aleatoriamente pelo computador, entre 1 e 100. ")
-print("Ao começar o jogo, você irá digitar um número, que será o seu palpite. \nO programa vai te avisar quando o número for maior, menor ou igual o número escolhido pelo computador. \nO jogo conta o seu número de tentativas e quanto menor o número de tentativas, maior sua pontuação.")
-print("Boa sorte e divirta-se!")
+print("Ao começar o jogo, você irá digitar um número, que será o seu palpite. \nO programa vai te avisar quando o número for maior, menor ou igual o número escolhido pelo computador.")
+print("O jogo conta o seu número de tentativas e quanto menor o número de tentativas, maior sua pontuação. \nBoa sorte e divirta-se!")
 
 while True:
     answer_user = input("Por favor, digite um número (entre 1 e 100): ")
